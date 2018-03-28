@@ -1,11 +1,22 @@
-# data-parser utils for php
+# data parser
 
-## Install
+simple data parser for php
+
+# Install
+
+- composer command
 
 ```bash
-composer require mylib/data-parser
+composer require swoft/data-parser
 ```
 
-## license
+# unit testing
 
-MIT
+```bash
+phpunit 
+```
+
+# LICENSE
+
+The Component is open-sourced software licensed under the [Apache license](LICENSE).
+
