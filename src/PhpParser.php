@@ -6,11 +6,12 @@
  * Time: 19:07
  */
 
-namespace MyLib\DataParser;
+namespace Swoft\DataParser;
 
 /**
  * Class PhpParser
- * @package MyLib\DataParser
+ * @package Swoft\DataParser
+ * @author inhere <in.798@qq.com>
  */
 class PhpParser implements ParserInterface
 {

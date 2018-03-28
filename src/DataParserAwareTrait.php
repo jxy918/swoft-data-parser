@@ -1,16 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: inhere
- * Date: 2017-12-14
- * Time: 19:37
- */
 
-namespace MyLib\DataParser;
+namespace Swoft\DataParser;
 
 /**
  * Class DataParserAwareTrait
- * @package MyLib\DataParser
+ * @package Swoft\DataParser
+ * @author inhere <in.798@qq.com>
  */
 trait DataParserAwareTrait
 {

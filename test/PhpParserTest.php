@@ -1,12 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Inhere
- * Date: 2018/3/28 0028
- * Time: 19:25
- */
 
-use MyLib\DataParser\PhpParser;
+namespace SwoftTest\DataParser;
+
+use Swoft\DataParser\PhpParser;
 use PHPUnit\Framework\TestCase;
 
 /**

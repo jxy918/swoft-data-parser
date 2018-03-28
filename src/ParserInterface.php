@@ -6,11 +6,12 @@
  * Time: 19:07
  */
 
-namespace MyLib\DataParser;
+namespace Swoft\DataParser;
 
 /**
  * Interface ParserInterface
- * @package MyLib\DataParser
+ * @package Swoft\DataParser
+ * @author inhere <in.798@qq.com>
  */
 interface ParserInterface
 {

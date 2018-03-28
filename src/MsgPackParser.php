@@ -1,16 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Inhere
- * Date: 2017/12/16 0016
- * Time: 21:23
- */
 
-namespace MyLib\DataParser;
+namespace Swoft\DataParser;
 
 /**
  * Class MsgPackParser
- * @package MyLib\DataParser
+ * @package Swoft\DataParser
+ * @author inhere <in.798@qq.com>
  */
 class MsgPackParser implements ParserInterface
 {
