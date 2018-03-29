@@ -2,7 +2,14 @@
 
 simple data parser for php
 
-# Install
+driver
+
+- json(by `json_encode`)
+- php(by `serialize`)
+- swoole(by extension `swoole_serialize`)
+- msgpack(by extension `msgpack`)
+
+## Install
 
 - composer command
 
@@ -10,13 +17,28 @@ simple data parser for php
 composer require swoft/data-parser
 ```
 
-# unit testing
+## Usage
+
+```php
+$parser = new SwooleParser();
+// $parser = new JsonParser();
+// $parser = new PhpParser();
+// $parser = new MsgPackParser();
+
+// encode
+$encoded = $parser->encode($data);
+
+// decode
+$decoded = $parser->encode($encoded);
+```
+
+## Unit testing
 
 ```bash
 phpunit 
 ```
 
-# LICENSE
+## LICENSE
 
 The Component is open-sourced software licensed under the [Apache license](LICENSE).
 
