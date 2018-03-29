@@ -18,7 +18,7 @@ class SwooleParser implements ParserInterface
      */
     public function __construct()
     {
-        if (!\function_exists('msgpack_pack')) {
+        if (!\class_exists(Serialize::class, false)) {
             throw new \RuntimeException("The php extension 'swoole_serialize' is required!");
         }
     }
